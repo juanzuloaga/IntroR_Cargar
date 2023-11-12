@@ -1,5 +1,5 @@
 # Cargar datos en R: Introducción
-En este [talller de Cargar datos en R](https://juanzuloaga.github.io/Intro_Motivacional/IntroR_Cargar.html) usted podrá aprender como cargar diferentes formatos de datos en R.
+En este [Talller de Cargar Datos en R](https://juanzuloaga.github.io/IntroR_Cargar/IntroR_Cargar.html) usted podrá aprender como cargar datos en diferentes formatos en R.
 
 Los datos son el insumo más importante para el análisis cuantitativo.
 
