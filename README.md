@@ -1,4 +1,4 @@
-# Introducción a cargar datos en R
+# Cargar datos en R: Introducción
 Los datos son el insumo más importante para el análisis cuantitativo.
 
 En general conocemos los datos en forma de tablas, por ejemplo una hoja de cálculo (extensión ‘.xlsx’). Sin embargo, los datos también pueden venir en otros formatos como texto, rásters o vectores.
