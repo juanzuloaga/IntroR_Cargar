@@ -10,13 +10,20 @@ output:
       collapsed: true
     code_folding: show
 ---
-<center><h2><span style="color:#3399FF">Ecodiversa </span> <span style="color:green">Tropical</span></h2> </center>
+
+Este taller ha sido desarrollado por:
+
+- <a href="https://www.edslab.org/" target="_blank">**Prof. Melissa Guzmán**</a> (University of Southern California).
+
+- Juan Zuloaga director de ( <a href="https://www.ecodiversatropical.com/" target="_blank">Ecodiversa Tropical</a>).
+
+
 
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-#knitr::opts_knit$set(root.dir = "C:/Talleres_Ecodiversa_R/IntroR_Cargar/")
+#knitr::opts_knit$set(root.dir = "C:/Talleres_R/IntroR_Cargar/")
 ```
 
 # 1. Objetivos de aprendizaje
@@ -24,12 +31,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Al final de este taller usted podrá saber cómo:
 
-+ Cargar datos en varios formatos
-+ Escribir datos para un archivo
++ Cargar en R datos en varios formatos
+
 
 # 2. Para empezar
 
 Inicie R Studio y abra un nuevo R Script utilizando el menu: *File* > *New File* > *R Script*
+
+Los paquetes que vamos a utilizar en este taller debe instalarlos utilizando la función y hacerlos disponibles para su uso en la librería de R.
+
+```{r}
+# Hagamos in listado de los paquetes que vamos a utilizar
+paquetes <- c()
+
+# Ahora instalemos solamente los paquetes que no estén instalados en la sesión de RStudio
+paquetes_nuevos <- paquetes[!(paquetes %in% installed.packages()[,"Package"])]
+if(length(paquetes_nuevos)) install.packages(paquetes_nuevos)
+
+# Finalmente cargumeos o hagamos disponible los paquetes en la sesión de RStudio
+lapply(some_packages, library, character.only=TRUE)
+
+```
 
 # 3. Introducción
 
@@ -39,9 +61,9 @@ En general conocemos los datos en forma de tablas, por ejemplo un hoja de cálcu
 
 Mostraremos rápidamente los formatos y las formas mas básicas de cargarlos en R.
 
-Con estas herramientas que le presentamos en este taller usted podrá aventurarse a implementar procesos más complejas.
+Con estas herramientas que le presentamos en este taller usted podrá aventurarse a implementar procesos más complejos.
 
-# 4. Interpretando Datos
+# 4. Leer los Datos
 
 Primero, tenemos que interpretar nuestros datos en R. Para interpretar datos en R, recuerda que necesitamos saber la dirección donde los datos están guardados y asignar este lugar como nuestro "working directory".
 
@@ -705,8 +727,17 @@ Recuerde que puede obterner ayuda para saber los parámetros que tienen estas fu
 
 <br>
 
+# 10. Siguiente paso
+
+Esperamos que este tutorial le haya sido de ayuda para empezar a enterder cómo funciona R y RStudio, así como el potencial que tiene para sus futuros proyectos.
+
+Practique bastante y proceda con otros tutoriales que ofrecemos.
+
+
+Si tiene comentarios o sugerencias nos puede escribir a ecodiversatropical@gmail.com.
 
 <div align="center">###########################################################################</div>
+
 
 
 
