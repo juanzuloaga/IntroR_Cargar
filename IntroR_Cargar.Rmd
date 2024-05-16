@@ -15,7 +15,7 @@ Este taller ha sido desarrollado por:
 
 - <a href="https://www.edslab.org/" target="_blank">**Prof. Melissa Guzmán**</a> (University of Southern California).
 
-- Juan Zuloaga director de ( <a href="https://www.ecodiversatropical.com/" target="_blank">Ecodiversa Tropical</a>).
+- Juan Zuloaga director de <a href="https://www.ecodiversatropical.com/" target="_blank">Ecodiversa Tropical</a>.
 
 
 
